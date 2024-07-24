@@ -10,7 +10,7 @@ For CodeZeros Task
 
 6.  Open your broweser and try to access host IP with 3000 Port your App is running
 
-**K8s App**
+**K8s App Task**
 
 1. Install Minikube:
 Download and install Minikube from the official Minikube GitHub repository https://github.com/kubernetes/minikube or using a package manager suitable for your operating system.
