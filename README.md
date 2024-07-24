@@ -3,7 +3,7 @@ For CodeZeros Task
 **Docker Task**
 
 1.  Install Docker on your System ...
-2.  git clone
+2.  git clone https://github.com/dharminfadia/DevOpsTask.git
 3.  cd DevOpsTask/Docker
 4.  docker build -t my-nodejs-app .
 5.  docker run -d -p 3000:3000 my-nodejs-app
@@ -15,7 +15,7 @@ For CodeZeros Task
 1. Install Minikube:
 Download and install Minikube from the official Minikube GitHub repository https://github.com/kubernetes/minikube or using a package manager suitable for your operating system.
 2. minikube start
-3. git clone
+3. git clone https://github.com/dharminfadia/DevOpsTask.git
 4. cd DevOpsTask/minikube
 5. kubectl apply -f namespace.yaml
 6. kubectl apply -f my-app-deployment.yaml
