@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: cache-deployment
+  namespace: codezero
 spec:
   replicas: 1
   selector:
@@ -13,7 +14,5 @@ spec:
         app: cache
     spec:
       containers:
-        - name: cache
-          image: redis  # Replace with your actual cache image
-          ports:
-            - containerPort: 6379
+        - name: cache-container
+          image: redis:latest  # Replace with your cache container image

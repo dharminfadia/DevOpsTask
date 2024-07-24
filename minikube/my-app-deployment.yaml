@@ -2,8 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: my-app-deployment
+  namespace: codezero
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: my-app
@@ -13,7 +14,5 @@ spec:
         app: my-app
     spec:
       containers:
-        - name: my-app
-          image: nginx  # Replace with your actual application image
-          ports:
-            - containerPort: 80
+        - name: my-app-container
+          image: nginx:latest  # Replace with your container image
